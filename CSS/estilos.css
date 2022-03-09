@@ -8,6 +8,10 @@ body{
     height: 100vh;
     font-family: Sylfaen;
 }
+.bg-footer{
+    background: rgb(234,157,84);
+    background: linear-gradient(180deg, rgba(234,157,84,1) 0%, rgba(209,115,20,1) 100%);
+}
 .bg-card{
     background-color: rgba(255, 255, 255, 0.445);
     border-radius: 5rem;
