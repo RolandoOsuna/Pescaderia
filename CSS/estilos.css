@@ -1,0 +1,23 @@
+body{
+    background-color: #dfdad6;
+}
+.bg-header{
+    background-image: url(../IMG/fondo.png);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    font-family: Sylfaen;
+}
+.bg-card{
+    background-color: rgba(255, 255, 255, 0.445);
+    border-radius: 5rem;
+}
+.text-shadow{
+    text-shadow: 6px 9px 12px rgba(0, 0, 0, 0.842);
+}
+.texto{
+    color: #d17314;
+}
+.titulo{
+    color: #72563b;
+}
