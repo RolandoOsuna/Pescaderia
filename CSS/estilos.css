@@ -1,8 +1,14 @@
+html{
+    box-sizing: border-box;
+}
+*,*::before,*::after{
+    box-sizing: inherit;
+}
 body{
     background-color: #dfdad6;
 }
 .bg-header{
-    background-image: url(../IMG/fondo.png);
+    background-image: url(../IMG/Fondo.png);
     background-size: cover;
     background-position: center center;
     height: 100vh;
@@ -24,4 +30,14 @@ body{
 }
 .titulo{
     color: #72563b;
+}
+.filter-shadow{
+    filter:drop-shadow(0px 2px 5px rgba(0, 0, 0, 0.521));
+    border-radius: 1.5rem
+}
+.zoom {
+    transition: transform .5s;
+}
+.zoom:hover {
+    transform: scale(1.1); 
 }

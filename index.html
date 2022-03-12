@@ -11,96 +11,132 @@
 <body>
     <!-- HEADER -->
     <header class="bg-header">
-        <div class="row "></div>
-        <nav class="row text-light  mt-5 px-5 py-4" style="background-color: #d17314bb;">
-            <div class="col fs-2 align-self-center px-5">LOGO</div>
-            <div class="col d-flex text-center fs-3  justify-content-evenly">
-                <div class="col-1">Lorem</div>
-                <div class="col-1">Ipsum</div>
-                <div class="col-1">Dolor</div>
-                <div class="col-1">Amet</div>
+        <nav class="row text-light justify-content-center py-5" >
+            <div class="col-12 col-md-6 d-flex text-center fs-3 py-2 justify-content-around"style="background-color: #d17314bb; border-radius: 3rem;">
+                <div class="col"><a class="text-decoration-none link-light" href="#Productos">Productos</a> </div>
+                <div class="col"><a class="text-decoration-none link-light" href="#Recetas">Recetas</a> </div>
+                <div class="col"><a class="text-decoration-none link-light" href="#Contacto">Contácto</a> </div>
             </div>
         </nav>
         <div class="container">
             <div class="row text-center text-light py-5">
                 <div class="col">
-                    <p class="display-3 text-shadow">Lorem, ipsum dolor.</p>
-                    <p class="fs-1 text-shadow">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui sapiente suscipit ipsam minima odio cumque delectus consectetur quis, aliquam sit quae aliquid velit perspiciatis repudiandae.</p>
+                    <p class="display-3 text-shadow">The Mariscos Shop</p>
+                    <p class="fs-1 text-shadow">El mejor producto del mar, presentando con el mayor cuidado, frescura y limpieza.</p>
                 </div>
-                <div class="pt-5">
+                <!-- <div class="pt-5">
                     <button class="btn btn-lg text-light shadow fs-2 px-5" type="button" style="background-color: #84635f; border: #84635f; border-radius: 1rem;">Botón</button>
-                </div>
+                </div> -->
             </div>
         </div>
     </header>
 
-    <!-- SECTION -->
+    <!-- MARISCOS -->
     <section class="container pt-3 pb-5">
+        <a name="Productos"></a>
         <div class="row text-center py-3">
-            <h1 class="titulo">Lorem</h1>
-            <p class="fs-3 texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi aperiam ex deleniti impedit exercitationem? Optio!</p>
+            <h1 class="titulo">Productos</h1>
+            <p class="fs-3 texto">Puedes encontrar una gran variedad de productos frescos y listos para degustar. </p>
         </div>
         <div class="row text-center">
-            <div class="col">
-                <img class="img-fluid" src="IMG/Filetes.png" loading="lazy" width="300px" >
+            <div class="col-12 col-lg-3 p-2">
+                <img class="img-fluid zoom" src="IMG/Marisco/Camaron.png" loading="lazy" width="" >
             </div>
-            <div class="col">
-                <img class="img-fluid" src="IMG/Camarones.png" loading="lazy" width="300px" >
+            <div class="col-12 col-lg-3 p-2">
+                <img class="img-fluid zoom" src="IMG/Marisco/Caracol.png" loading="lazy" width="" >
             </div>
-            <div class="col">
-                <img class="img-fluid" src="IMG/Pescado.png" loading="lazy" width="300px" >
+            <div class="col-12 col-lg-3 p-2">
+                <img class="img-fluid zoom" src="IMG/Marisco/CalloHacha.png" loading="lazy" width="" >
+            </div>
+            <div class="col-12 col-lg-3 p-2">
+                <img class="img-fluid zoom" src="IMG/Marisco/Atun.png" loading="lazy" width="" >
+            </div>
+        </div>
+        <div class="row text-center justify-content-center">
+            <div class="col-12 col-lg-3 p-2">
+                <img class="img-fluid zoom" src="IMG/Marisco/Pescado.png" loading="lazy" width="" >
+            </div>
+            <div class="col-12 col-lg-3 p-2">
+                <img class="img-fluid zoom" src="IMG/Marisco/Pulpo.png" loading="lazy" width="" >
+            </div>
+            <div class="col-12 col-lg-3 p-2">
+                <img class="img-fluid zoom" src="IMG/Marisco/Calamar.png" loading="lazy" width="" >
             </div>
         </div>
     </section>
     
-    <!-- SECCION -->
-    <main class="p-3 py-lg-5" style="background-color: #6f3014;">
-        <div class="row justify-content-center">
+    <!-- RECETARIO -->
+    <main class="" style="background-color: #6f3014;">
+        <a name="Recetas"></a>
+        <div class="row">
+            <div class="col">
+                <h1 class="text-center texto">Recetario</h1>
+                <p class="text-center text-white fs-3 px-5">Aquí te presentamos algunas opciones culinarias que puedes hacer con nuestros productos.</p>
+            </div>
+        </div>
+        <div class="row justify-content-center align-items-center px-3 py-lg-3">
             <aside class="col-12 col-lg-6 text-center">
-                <img class="img-fluid shadow pb-3 pb-lg-4" src="IMG/Ceviche.jpg" width="450px">
-                <img class="img-fluid shadow" src="IMG/Atun-sellado.jpg" width="450px">
+                <img id="img1" class="img-fluid filter-shadow rounded pb-3 pb-lg-4" src="IMG/Logo.png">
             </aside>
             <!-- SCROLL -->
             <div class="col-12 col-lg-6 pt-3 pt-lg-0 pe-lg-5">
                 <div class="overflow-auto px-lg-3 " style="height: 90vh;">
+                    <!-- CEVICHE DE SIERRA -->
                     <div class="card mb-3" style="background-color: rgba(255, 255, 255, 0.445);border-radius: 2.5rem;">
-                        <div class="row g-0">
-                          <div class="col-md-4 p-3 text-center ">
-                            <img class="img-fluid" src="IMG/Camarones.png" alt="" srcset="">
+                        <div class="row g-0 align-items-center">
+                          <div class="col-md-5 p-3 text-center  ">
+                            <img id="Sierra" class="img-fluid" src="IMG/CevicheSierra.jpg" style="border-radius: 1.5rem;" >
                           </div>
-                          <div class="col-md-8">
+                          <div class="col-md-7">
                             <div class="card-body">
-                              <h4 class="card-title text-white">Lorem</h4>
-                              <p class="card-text text-white-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto dolorum officia, fugit architecto accusamus quidem!</p>
-                              <p class="card-text text-end"><small class="text-black-50">Ver Más</small></p>
+                              <h4 class="card-title text-white">Ceviche de Sierra</h4>
+                              <span class="card-text text-white-50">Sierra y zanahoria molida revuelto pepino, cebolla y cilantro sazonado con sal, limón y pimienta</span>
+                              <p class="card-text text-end"><small class="text-black-50" id="" onclick="document.getElementById('img1').src='IMG/CevicheSierra.jpg'" >Ver Más</small></p>
                             </div>
                           </div>
                         </div>
                     </div>
+                    <!-- CEVICHE DE CAMARON -->
                     <div class="card mb-3" style="background-color: rgba(255, 255, 255, 0.445);border-radius: 2.5rem;">
-                        <div class="row g-0">
-                          <div class="col-md-4 p-3 text-center ">
-                            <img class="img-fluid" src="IMG/Filetes.png" alt="" srcset="">
+                        <div class="row g-0 align-items-center">
+                          <div class="col-md-5 p-3 text-center ">
+                            <img class="img-fluid" src="IMG/CevicheCamaron.jpg" style="border-radius: 1.5rem;">
                           </div>
-                          <div class="col-md-8">
+                          <div class="col-md-7">
                             <div class="card-body">
-                              <h4 class="card-title text-white">Lorem</h4>
-                              <p class="card-text text-white-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto dolorum officia, fugit architecto accusamus quidem!</p>
-                              <p class="card-text text-end"><small class="text-black-50">Ver Más</small></p>
+                              <h4 class="card-title text-white">Ceviche de Camarón</h4>
+                              <span class="card-text text-white-50">Camaron (ya sea crudo o cocido) picado revuelto con pepino, cebolla, tomate y cilando sazonado con sal, limon y pimienta.  </span>
+                              <p class="card-text text-end"><small class="text-black-50" id="" onclick="document.getElementById('img1').src='IMG/CevicheCamaron.jpg'" >Ver Más</small></p>
                             </div>
                           </div>
                         </div>
                     </div>
+                    <!-- ATÚN SELLADO -->
                     <div class="card mb-3" style="background-color: rgba(255, 255, 255, 0.445);border-radius: 2.5rem;">
-                        <div class="row g-0">
-                          <div class="col-md-4 p-3 text-center ">
-                            <img class="img-fluid" src="IMG/Pescado.png" alt="" srcset="">
+                        <div class="row g-0 align-items-center">
+                          <div class="col-md-5 p-3 text-center ">
+                            <img class="img-fluid" src="IMG/AtunSellado.jpg" style="border-radius: 1.5rem;" >
                           </div>
-                          <div class="col-md-8">
+                          <div class="col-md-7">
                             <div class="card-body">
-                              <h4 class="card-title text-white">Lorem</h4>
-                              <p class="card-text text-white-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto dolorum officia, fugit architecto accusamus quidem!</p>
-                              <p class="card-text text-end"><small class="text-black-50">Ver Más</small></p>
+                              <h4 class="card-title text-white">Atún Sellado</h4>
+                              <span class="card-text text-white-50">Atún concinado cubierto con ajonjolí blanco y negro bañado en una salsa de jamaica</span>
+                              <p class="card-text text-end"><small class="text-black-50" id="" onclick="document.getElementById('img1').src='IMG/AtunSellado.jpg'" >Ver Más</small></p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <!-- PESCADO ZARANDEADO -->
+                    <div class="card mb-3" style="background-color: rgba(255, 255, 255, 0.445);border-radius: 2.5rem;">
+                        <div class="row g-0 align-items-center">
+                          <div class="col-md-5 p-3 text-center ">
+                            <img class="img-fluid" src="IMG/PescadoZarandeado.jpg" style="border-radius: 1.5rem;" >
+                          </div>
+                          <div class="col-md-7">
+                            <div class="card-body">
+                              <h4 class="card-title text-white">Pescado Zarandeado</h4>
+                              <span class="card-text text-white-50">Pescado asado en una rejilla, llama­da zaranda. se sirve entero, abierto a la mitad, condimentado con jugo de limón, sal, pimienta y salsa de soya.</span>
+                              <p class="card-text text-end"><small class="text-black-50" id="" onclick="document.getElementById('img1').src='IMG/PescadoZarandeado.jpg'" >Ver Más</small></p>
                             </div>
                           </div>
                         </div>
@@ -110,14 +146,14 @@
         </div>
     </main>
 
-    <!-- SECCTION -->
+    <!-- CONTACTO -->
     <section>
-        <div class="row">
-            <div class="col-12 col-lg-4  text-white py-3" style="background-color: #2a2629;">
-                <h1 class="ps-1" style="color: #ea9d54;">Lorem, ipsum dolor.</h1>
-                <p class="fs-2 ps-3" style="color: #dec880;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt provident nam aspernatur debitis dolore rem qui? Labore hic explicabo maxime!</p>
+    <a name="Contacto"></a>
+        <div class="row align-items-center"style="background-color: #2a2629;">
+            <div class="col-12 col-lg-4 text-white py-3" >
+                <p class="fs-2 ps-3" style="color: #dec880;">Manejamos limpieza en cada uno de nuestro marisco generandote confianza para poder posicionarnos como la mejor opción en el mercado.</p>
                 <div class="pt-3 text-center">
-                    <button class="btn btn-lg text-light  shadow fs-2 px-5" type="button" style="background-color: #84635f; border: #84635f; border-radius: 1rem;">Botón</button>
+                    <button class="btn btn-lg text-light  shadow fs-2 px-5" type="button" style="background-color: #84635f; border: #84635f; border-radius: 1rem;">Contáctanos</button>
                 </div>
             </div>
             <div class="col-12 col-lg-8">
@@ -127,31 +163,26 @@
     </section>
 
     <!-- SECTION -->
-    <section class="text-center py-5" style="background-color: #c7d5d8; font-family: Sylfaen;">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <p class="display-5 texto">Lorem ipsum dolor sit.</p>
-                    <p class="fs-2 titulo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sequi laudantium praesentium doloremque id! In!</p>
-                </div>
+    <section class="text-center py-" style="background-color: #c7d5d8; font-family: Sylfaen;">
+        <div class="row">
+            <div class="col">
+                <img class="img-fluid" src="IMG/LONA GIGANTESCA2-01-convertido-comprimido_page-0001.jpg" width="">
             </div>
         </div>
     </section>
 
     <!-- FOOTER -->
-
     <footer class="bg-footer text-white">
-        <div class="row align-items-center px-5">
-            <div class="col text-white-50 fs-1">LOGO</div>
-            <div class="col ">
+        <div class="row align-items-center px-lg-5">
+            <div class="col-12 col-lg-4 text-center text-lg-start text-white-50 fs-1"><img class="img-fluid" src="IMG/Logo-footer.png" width="150px"></div>
+            <div class="col-12 col-lg-4 ">
                 <div class="col d-flex text-center fs-3  justify-content-evenly" style="font-family: Sylfaen;">
-                    <div class="col-1">Lorem</div>
-                    <div class="col-1">Ipsum</div>
-                    <div class="col-1">Dolor</div>
-                    <div class="col-1">Amet</div>
+                        <div class="col"><a class="text-decoration-none link-light" href="#Productos">Productos</a> </div>
+                        <div class="col"><a class="text-decoration-none link-light" href="#Recetas">Recetas</a> </div>
+                        <div class="col"><a class="text-decoration-none link-light" href="#Contacto">Contácto</a> </div>
                 </div>
             </div>
-            <div class="col text-end">*redes sociales*</div>
+            <div class="col-12 col-lg-4 text-center text-lg-end">*redes sociales*</div>
         </div>
         <div class="row">
             <hr>
